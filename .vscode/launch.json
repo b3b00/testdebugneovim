@@ -1,0 +1,15 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "coreclr",
+            "request": "launch",
+            "name": "launch testdebugneovim with 3 args : Bonjour ¡Hola! Ciao !",
+            "program": "${workspaceFolder}/bin/Debug/net8.0/testdebugneovim.dll",
+            "args": ["Bonjour", "¡Hola!", "Ciao !"]
+        }
+    ]
+}
